@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Oneassist</title>
+  <style>
+    .con-2:hover {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="margin-right: 35%;"><img src="img/logo.png" alt="" width="150px"
+          height="50px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <b> Financial Protection </b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <b>Gadgets & Electronics</b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <b> Home Appliances </b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+          <button type="button" class="btn btn-outline-success me-3">Login</button>
+          <button type="button" class="btn btn-outline-success me-3">Signup</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ------------------------------------------------------------------------ -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/apple.jpeg" class="d-block w-100 img-fluid" alt="...">
+
+      </div>
+      <div class="carousel-item">
+        <img src="img/ipad.jpeg" class="d-block w-100 img-fluid" alt="...">
+
+      </div>
+      <div class="carousel-item">
+        <img src="img/nature.jpeg" class="d-block w-100 img-fluid" alt="...">
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ------------------------------------------------------------------------------- -->
+  <div class="container ">
+
+    <div class="row ms-4">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-2 pt-4  bg-light border" style="height: 120px; ">
+        <img src="img/Mobile.png" class="img-fluid  pe-auto" alt="" style="float: left;">
+        <span class="text-dark  ms-2"> <b>Mobile Protection</b></span><br><span class="ms-2">Know More ></span>
+      </div>
+      <div class="col-12  col-sm-6 col-md-6 col-lg-2 pt-4 bg-light border" style="height: 120px;">
+        <img src="img/wallet.png" class="img-fluid  pe-auto" alt="" style="float: left;">
+        <span class="text-dark ms-2 "> <b>Wallet </b> </span><br><span class="ms-2">Know More ></span>
+      </div>
+      <div class="col-12  col-sm-6 col-md-6  col-lg-2 bg-light pt-4 border" style="height: 120px;">
+        <img src="img/idfence.png" class="img-fluid  pe-auto" alt="" style="float: left;">
+        <span class="text-dark ms-2 "> <b>ID Fence </b></span><br><span class="ms-2">Know More ></span>
+      </div>
+      <div class="col-12  col-sm-6 col-md-6  col-lg-2 bg-light pt-4 border" style="height: 120px;">
+        <img src="img/Laptop.png" class="img-fluid  pe-auto" alt="" style="float: left;">
+        <span class="text-dark ms-2"> <b>Laptop </b></span><br><span class="ms-2">Know More ></span>
+      </div>
+      <div class="col-12  col-sm-12  col-md-12  col-lg-2 bg-light pt-4 border" style="height: 120px;">
+        <img src="img/HomeServ.png" class="img-fluid  pe-auto " alt="" style="float: left;">
+        <span class="text-dark  ms-2"> <b>Home Appliances</b></span><br><span class="ms-2">Know More ></span>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------------------------- -->
+  <div class="container overflow-hidden ">
+    <h1 class="text-center">What's New ?</h1>
+    <div class="row gx-5">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6  mt-3">
+        <div class=" row" style="height: 150px;width: 100%;">
+          <div class="col-9 pt-3 " style="height: 150px;">
+            <h3>Risk Calculator</h3>
+            <p>Try our calculator to check if your information is at risk</p>
+          </div>
+          <div class="col-3 " style="height: 150px;">
+            <img src="img/identity.png" alt="" style="height: 150px;width: 120%;" class="img-thumnail">
+          </div>
+
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6  mt-3">
+        <div class=" row" style="height: 150px;width: 100%;">
+          <div class="col-9 pt-3 " style="height: 150px;">
+            <h3>24X7 Chatbots Assistance</h3>
+            <p>Raise a claim or as anything, anytime!</p>
+          </div>
+          <div class="col-3 " style="height: 150px;">
+            <img src="img/refer.png" alt="" style="height: 150px;width: 120%;" class="img-thumnail">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------- -->
+
+  <div class="container  mt-5">
+    <div class="row ">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 " style="height: 100%;">
+        <img src="img/assist.png" alt="" class="img-fluid" style="height: 450px;width: 100%;">
+      </div>
+      <div class="col-12 bg-light pt-3 col-sm-12 col-md-12 col-lg-6" style="height: 100%;">
+        <h2 class="bold text-center text-dark">OneAssist truly cares for you</h2>
+        <div class="pt-5">
+          <img src="img/save-time.jpeg" alt="" style="height: 80px;width: 80px;float: left;" class="img-thumnail me-4">
+          <span class="text-dark bold fs-2">Save Time</span><br><span class="text-dark">One call is all it takes. We
+            take care of the rest</span>
+        </div>
+        <div class="pt-5">
+          <img src="img/save-money.jpg" alt="" style="height: 80px;width: 80px;float: left;" class="img-thumnail me-4">
+          <span class="text-dark bold fs-2">Save Money</span><br><span class="text-dark">Avoid heavy repair &
+            replacement costs</span>
+        </div>
+        <div class="pt-5">
+          <img src="img/save-hassles.jpg" alt="" style="height: 80px;width: 80px;float: left;"
+            class="img-thumnail me-4">
+          <span class="text-dark bold fs-2">Save Hassles</span><br><span class="text-dark">No more running around repair
+            centres in case things go wrong</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------------------------------------- -->
+  <div class="container-fluid mt-5 pt-5 text-center pb-5" style="width: 100%;height: 100%;background-color: #84bb3b;">
+
+    <h1 class="text-white text-center ">Who We Are</h1>
+    <p class="text-white text-center mt-2" style="font-size: 1.5rem;">We provide Assistance and Protection for the
+      things you are most <br> dependent on, in your everyday lives. Anytime. Anywhere.</p>
+    <button type="button" class="btn btn-light btn-lg" style="color: #84bb3b;">Know More</button>
+  </div>
+
+<!-- --------------------------------------------------------------------------------------------------- -->
+<div id="carouselExampleIndicators" class="carousel slide  " data-bs-ride="carousel"  style="background-color: rgb(214, 210, 205);">
+  <h1 class="text-center">What our customers say</h1>
+  <!-- <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div> -->
+  <div class="carousel-inner">
+    <div class="carousel-item active  row pt-2  " style="height: 300px;">
+      <div class="container" style="width: 70%;">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-1 " style="height: 150px;">
+            <img src="img/jpg.jpg" alt="" class="img-fluid" style="height: auto;width: 100%;">
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6   mt-1" style="height: 150px; ">
+            <img src="img/2.3a70fd86.jpg" alt="" class="img-fluid" style="height: auto; width: 100%;">
+            
+          </div>
+        </div>
+      
+      </div>
+      
+    </div>
+    <div class="carousel-item pt-2" style="height: 300px;">
+      <div class="container" style="width: 70%;">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-1  " style="height: 150px;">
+              <img src="img/3.11725994.jpg" alt="" class="img-fluid" style="height: auto;width: 100%;">
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6   mt-1" style="height: 150px; ">
+              <img src="img/4.5a8bf308.jpg" alt="" class="img-fluid" style="height: auto; width: 100%;">
+              
+            </div>
+          </div>
+        
+        </div>
+    </div>
+    <div class="carousel-item pt-2  " style="height: 300px;">
+      <div class="container" style="width: 70%;">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-1 " style="height: 150px;">
+            <img src="img/3.11725994.jpg" alt="" class="img-fluid" style="height: auto;width: 100%;">
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 mt-1 " style="height: 150px; ">
+            <img src="img/5.a4092834.jpg" alt="" class="img-fluid" style="height: auto; width: 100%;">
+            
+          </div>
+        </div>
+      
+      </div>
+  </div>
+ 
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- ----------------------------------------------------------------------------------------------------------- -->
+
+
+<div class="container-fluid pt-5  pe-5 pb-5 " style="height:100%;padding-left: 10%;background-image: linear-gradient(110deg,#0282f0,#00579a);">
+  <div class="row ">
+      <div class="col-12  col-sm-12 col-md-12 col-lg-8 " style="height: 100%;">
+          <div class="row">
+              <div class="col-2">
+                  <img src="img/identity.png" alt="" class="img-fluid" style="float: left;">
+
+              </div>
+              <div class="col-10 text-white">
+                  <h2 class="fs-3" > Over 7,200 people found their online Identity at risk</h2>
+                  <p class="fs-5 "> Is your identity at risk? Try our Identity Risk Calculator to see where you stand</p>
+                  <div class="row">
+                      <div class=" col text-white" style="opacity: 0.5;">
+                          <h2 class="fs-5 " >10,000+</h2>
+                          <h2 class="fs-6" > ID FENCE MEMBERS</h2>
+
+                      </div>
+                      <div style=" opacity: 0.5;" class=" col text-white">
+                          <h2 class="fs-5">44,000+</h2>
+                          <h2 class="fs-6" > DATA POINTS MONITORED</h2>
+
+                      </div>
+                      <div style="opacity: 0.5;" class="col text-white">
+                          <h2 class="fs-5" >65,000+</h2>
+                          <h2 class="fs-6" > COMPROMISE ALERTS FOUND</h2>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          
+          
+      </div>
+      
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 " style="height: 100%;">
+          <div class="d-grid gap-2 col-12 mx-auto pt-5 ps-5 pe-5 pb-5">
+              <button class="btn btn-primary btn-lg" type="button">Calculate Your Risk Now!</button>
+            </div>
+     
+      </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+
+<div class="container-fluid pt-5" style="height: 250px;background-color: rgb(225, 231, 239);">
+  <h1 class="text-center">Our Partners</h1>
+  <marquee behavior="" direction="left" class="mt-5" >
+      <img src="img/partnerlogo-1.a1230ecc.png" alt="" style="width: 300px; height: 30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-2.855324e3.png" alt="" style="width: 300px; height: 30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-3.1d5a2261.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-4.09809684.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-5.446b2389.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-8.7b3e07be.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-9.e99630ff.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-11.67e481c1.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-14.d4ba4c96.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-16.f817bc83.png" alt="" style="width: 300px; height: 30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-17.6dd9be93.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-18.712fa84a.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-19.1121b625.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+      <img src="img/partnerlogo-20.e59e99f5.png" alt="" style="width: 300px; height:  30px;" class="img-fluid me-5">
+
+
+
+
+
+  </marquee>
+</div>
+
+
+
+
+
+
+<!-- ------------------------------------------------------ -->
+
+
+
+
+<div class="container-fluid bg-light  pt-2 " style="height: 100%;">
+  <h1 class="text-center ">One Tap. OneAssist</h1>
+  <div class="row mt-5 ">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 " style="height: auto;">
+          <img src="img/ic_mobile.64c4f58f.png" alt="" class="img-fluid" style="height: 550px;width: 100%;">
+      </div>
+      <div class="col-12 bg-light pt-3 col-sm-12 col-md-12 col-lg-6" style="height: auto;">
+          <h4 class="bold  text-dark" style="font-weight: bold;">Download OneAssist and get assistance for your
+              Gadgets | Finances | Appliances</h4>
+          <div class="pt-5">
+              <img src="img/chatbot.svg" alt="" style="height: 30px;width: 30px;float: left;"
+                  class="img-thumnail me-4">
+              <span class="text-dark bold ">24x7 anytime Chatbot assistance</span><br>
+          </div>
+          <div class="pt-5">
+              <img src="img/real-time.svg" alt="" style="height: 30px;width: 30px;float: left;"
+                  class="img-thumnail me-4">
+              <span class="text-dark  ">Real-time service updates</span>
+          </div>
+          <div class="pt-5">
+              <img src="img/app-store.png" alt="" style="height: 30px;width: 30px;float: left;"
+                  class="img-thumnail me-4">
+              <span class="text-dark ">Best-in-class experience, rated 4.5 on App Store and 4.6 on Google
+                  Play Store</span>
+          </div>
+          <div class="pt-5">
+              <img src="img/happy-custumer.svg" alt="" style="height: 30px;width: 30px;float: left;"
+                  class="img-thumnail me-4">
+              <span class="text-dark ">Trusted by 4+ million customers</span>
+          </div>
+          <div class="pt-2">
+              <img src="img/apple.png" alt="" style="height: 50px;width: 170px;float: left; margin-top: 1%;"
+                  class="img-thumnail me-4">
+                  <img src="img/google-play.png" alt="" style="height: 50px;width: 170px;float: left;margin-top: 1%;"
+                  class="img-thumnail me-4">
+                  <span style="opacity: 0.5;">10,00,000+ <br> total app downloads</span>
+          </div>
+      </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+<!-- ------------------------------------------------ -->
+
+<div class="container-fluid  pt-5 ps-5 pe-5 " style="height: 100%;background-color: rgb(54, 53, 53);">
+  <div class="row  " >
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4  col-xl-2 mt-5 " style="height: auto;">
+          <h2 class=" text-white fs-5 " style="opacity: 0.5;"> OUR PRODUCTS</h2>
+          <ul class=" pt-3  " style="text-decoration: none;list-style: none;">
+              <li  class="mt-4 "><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Mobile Protection</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">ID Fence</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Wearables</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Wearables</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Wallets</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Laptops</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Home Appliances</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Furniture</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Fin-Protect</a></li>
+
+
+           </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 mt-5 " style="height: auto;">
+          <h2 class=" text-white fs-5" style="opacity: 0.5;"> OUR COMPANY</h2>
+          <ul class="ps-5 pt-3 " style="text-decoration: none;list-style: none;">
+              <li  class="mt-4 "><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">About Us</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">FAQ</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">General T&C</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Product's T&C </a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">OneAssist Blog</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Careers</a></li>
+
+
+
+           </ul>
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 mt-5" style="height: auto;">
+          <h2 class=" text-white fs-5" style="opacity: 0.5;"> OUR WEBSITE</h2>
+          <ul class="ps-5 pt-3 " style="text-decoration: none;list-style: none;">
+              <li  class="mt-4 "><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Sitemap</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Privacy Policy</a></li>
+              <li class="mt-4" ><a href="" class="text-white mt-5 fs-5" style="text-decoration: none;">Security</a></li>
+
+
+
+           </ul>
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6  col-xl-3 mt-5 " style="height: auto;">
+          <h2 class=" text-white fs-5" style="opacity: 0.5;"> DOWNLOAD OUR APP</h2>
+          <p class=" text-white fs-5 mt-5">Best-in-class experience, rated 4.6 on App Store and 4.6 on Google Play Store. Explore our App now!</p>
+          <img src="img/apple.png" alt="" style="width: 150px;height: auto;" class="img-fluid mt-2">
+          <img src="img/google-play.png" alt="" style="width: 150px;height: auto;" class="img-fluid mt-2">
+
+          
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6  col-xl-3 mt-5" style="height: auto;">
+          <h2 class=" text-white fs-5 " style="opacity: 0.5;"> CONTACT US</h2>
+          <h2 class=" text-white  fs-5 mt-5" style="opacity: 0.5; "> Customer Service</h2>
+          <h2 class=" text-white  fs-5 mt-2"> 1800 123 3330,  08080 333 333</h2>
+          <h2 class=" text-white  fs-5 mt-3" style="opacity: 0.5; "> Business Enquiry</h2>
+          <h2 class=" text-white fs-5  mt-2">businessenquiry@oneassist.in</h2>
+          <h2 class=" text-white fs-5 mt-3" style="opacity: 0.5; "> Product Enquiry</h2>
+          <h2 class=" text-white fs-5  mt-2">1800 266 9930</h2>
+          <h2 class=" text-white fs-5  mt-3" style="font-weight: 900; "> OneAssist Consumer Solutions Pvt. Ltd.</h2>
+          <p class=" text-white  fs-5 mt-2">3rd Floor, Fleet House, Next to Marol Naka Metro Station, Marol Naka, Andheri Kurla Road Mumbai 400059</p>
+
+
+
+      </div>
+  </div>
+
+</div>
+
+<!-- ------------------------------------------------- -->
+</body>
+
+</html>
